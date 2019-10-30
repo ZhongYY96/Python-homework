@@ -1,0 +1,12 @@
+def rectify(x):
+    s=''
+    for i in x[:] :
+       s=s+i.lower()
+    return s.capitalize()
+
+    
+def func():
+     return map(rectify,['sA','bb','GGGsSS'])
+   
+L=func()
+print(list(L))
